@@ -3,7 +3,7 @@ var apiOptions = {
   server : "http://localhost:3000"
 };
 if (process.env.NODE_ENV === 'production') {
-  apiOptions.server = "https://getting-mean-loc8r.herokuapp.com";
+  apiOptions.server = "http://mean97386.azurewebsites.net/";
 }
 
 var _isNumeric = function (n) {
